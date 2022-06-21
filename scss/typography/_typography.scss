@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 26px; 
+
+  @media screen and (max-width: 1200px) {
+    font-size: 22px; 
+  }
+
+  @media screen and (max-width: 990px) {
+    font-size: 20px; 
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 17px; 
+  }
+}
+
+
+div#search-results {
+  
+  h1 {
+    font-size: 20px;
+
+    @media screen and (max-width: 950px) {
+      font-size: 17px; 
+    }
+
+    @media screen and (max-width: 840px) {
+      font-size: 15px; 
+    }
+  }
+
+  p {
+    font-size: 15px; 
+
+    @media screen and (max-width: 950px) {
+      font-size: 13px;
+    }
+  }
+
+}
+
+input#searchfield {
+	font-size: 17px;
+
+  @media screen and (max-width: 840px) {
+    font-size: 14px; 
+  }
+
+  @media screen and (max-width: 590px) {
+    font-size: 12px;
+  }
+
+  .results & {
+
+    @media screen and (max-width: 1025px) {
+      font-size: 14px;
+    }
+  }
+}

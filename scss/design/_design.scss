@@ -1,0 +1,39 @@
+html {
+  background: url(../img/open-books-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100%; 
+}
+
+body {
+  color: #fff; 
+  text-shadow: 2px 2px 1px #555; 
+  background: none; 
+  position: relative; 
+  text-align: center; 
+  height: 100%; 
+}
+
+.hidden {
+  display: none;
+}
+
+div#search-results {
+  text-shadow: none; 
+}
+
+a#results-link {
+  text-decoration: none; 
+  color: #444; 
+}
+
+div.div-results {
+  background-color: #eee; 
+
+  &:hover {
+    background-color: #ccc; 
+  }
+}

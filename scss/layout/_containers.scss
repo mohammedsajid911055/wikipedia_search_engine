@@ -1,0 +1,122 @@
+body {
+
+  h3 {
+    margin: 0; 
+  }
+}
+
+.home {
+  top: 50%;
+  transform: translateY(-50%); 
+  position: relative; 
+
+  .row {
+    width: 80%;
+    margin: 15px auto;
+  }
+}
+
+#random-div {
+  margin: 15px 0 ;
+}
+
+input#searchfield {
+  padding: 7px 12px; 
+
+  @media screen and (max-width: 950px) {
+    padding: 5px 10px; 
+  }
+
+  @media screen and (max-width: 840px) {
+    padding: 5px 8px; 
+  }
+
+  @media screen and (max-width: 590px) {
+    padding: 4px 7px; 
+  }
+}
+
+#searchRow {
+
+  div {
+
+    @media screen and (max-width: 768px) {
+      margin: 5px 0; 
+    }
+  }
+}
+
+#smallTitle {
+  width: 250px;
+  float: left; 
+
+  @media screen and (max-width: 1200px) {
+    width: 190px; 
+    margin-top: 7px; 
+  }
+
+  @media screen and (max-width: 1025px) {
+    width: 170px; 
+  }
+
+  @media screen and (max-width: 950px) {
+    width: 130px; 
+    margin-top: 15px;
+    margin-left: 8px; 
+  }
+
+  @media screen and (max-width: 730px) {
+    width: 115px;
+    margin-top: 10px;
+    margin-left: 8px; 
+  }
+
+  @media screen and (max-width: 590px) {
+    display: none; 
+  }
+}
+
+.results button#random, .results p#or {
+
+  @media screen and (max-width: 840px) {
+    display: none; 
+  }
+}
+
+.results {
+  margin: 25px 0; 
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 75%; 
+
+  .row {
+  width: 60%;
+  margin: auto;
+
+    @media screen and (max-width: 768px) {
+      width: 75%;
+    } 
+
+    @media screen and (max-width: 544px) {
+      width: 100%;
+    } 
+  }
+}
+
+div.div-results {
+  padding: 12px; 
+  margin: 5px; 
+
+  h1 {
+    @media screen and (max-width: 840px) {
+     margin: 5px; 
+    }
+  }
+
+  p {
+    @media screen and (max-width: 950px) {
+      margin: 5px;
+    }
+  }
+}

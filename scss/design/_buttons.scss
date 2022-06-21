@@ -1,0 +1,48 @@
+button {
+  background-color: $button-color;  
+  border: none;
+  color: $white; 
+  font-weight: bold; 
+  padding: 9px 14px; 
+  display: inline-block;
+  font-size: 17px; 
+
+  @media screen and (max-width: 1025px) {
+    font-size: 16px; 
+  }
+
+  @media screen and (max-width: 950px) {
+    font-size: 14px; 
+    padding: 7px 12px; 
+  }
+
+  @media screen and (max-width: 840px) {
+    font-size: 15px;
+    padding: 6px 8px; 
+  }
+
+  @media screen and (max-width: 590px) {
+    font-size: 13px;
+    padding: 5px 7px;
+  }
+}
+
+.btn, #search {
+  &:hover {
+    background-color: $button-color-hover;
+    border-color: $button-color-hover; 
+    color: $white; 
+  }
+}
+
+#search {
+  background-color: $button-color;
+  border-color: $button-color;
+}
+
+.results button {
+
+  @media screen and (max-width: 1025px) {
+    font-size: 13px; 
+  }
+}

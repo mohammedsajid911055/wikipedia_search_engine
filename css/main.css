@@ -1,0 +1,195 @@
+html {
+  background: url(../img/open-books-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100%; }
+
+body {
+  color: #fff;
+  text-shadow: 2px 2px 1px #555;
+  background: none;
+  position: relative;
+  text-align: center;
+  height: 100%; }
+
+.hidden {
+  display: none; }
+
+div#search-results {
+  text-shadow: none; }
+
+a#results-link {
+  text-decoration: none;
+  color: #444; }
+
+div.div-results {
+  background-color: #eee; }
+  div.div-results:hover {
+    background-color: #ccc; }
+
+button {
+  background-color: #c34257;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 9px 14px;
+  display: inline-block;
+  font-size: 17px; }
+  @media screen and (max-width: 1025px) {
+    button {
+      font-size: 16px; } }
+  @media screen and (max-width: 950px) {
+    button {
+      font-size: 14px;
+      padding: 7px 12px; } }
+  @media screen and (max-width: 840px) {
+    button {
+      font-size: 15px;
+      padding: 6px 8px; } }
+  @media screen and (max-width: 590px) {
+    button {
+      font-size: 13px;
+      padding: 5px 7px; } }
+
+.btn:hover, #search:hover {
+  background-color: #9f3344;
+  border-color: #9f3344;
+  color: #fff; }
+
+#search {
+  background-color: #c34257;
+  border-color: #c34257; }
+
+@media screen and (max-width: 1025px) {
+  .results button {
+    font-size: 13px; } }
+
+body h3 {
+  margin: 0; }
+
+.home {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative; }
+  .home .row {
+    width: 80%;
+    margin: 15px auto; }
+
+#random-div {
+  margin: 15px 0; }
+
+input#searchfield {
+  padding: 7px 12px; }
+  @media screen and (max-width: 950px) {
+    input#searchfield {
+      padding: 5px 10px; } }
+  @media screen and (max-width: 840px) {
+    input#searchfield {
+      padding: 5px 8px; } }
+  @media screen and (max-width: 590px) {
+    input#searchfield {
+      padding: 4px 7px; } }
+
+@media screen and (max-width: 768px) {
+  #searchRow div {
+    margin: 5px 0; } }
+
+#smallTitle {
+  width: 250px;
+  float: left; }
+  @media screen and (max-width: 1200px) {
+    #smallTitle {
+      width: 190px;
+      margin-top: 7px; } }
+  @media screen and (max-width: 1025px) {
+    #smallTitle {
+      width: 170px; } }
+  @media screen and (max-width: 950px) {
+    #smallTitle {
+      width: 130px;
+      margin-top: 15px;
+      margin-left: 8px; } }
+  @media screen and (max-width: 730px) {
+    #smallTitle {
+      width: 115px;
+      margin-top: 10px;
+      margin-left: 8px; } }
+  @media screen and (max-width: 590px) {
+    #smallTitle {
+      display: none; } }
+
+@media screen and (max-width: 840px) {
+  .results button#random, .results p#or {
+    display: none; } }
+
+.results {
+  margin: 25px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%; }
+  .results .row {
+    width: 60%;
+    margin: auto; }
+    @media screen and (max-width: 768px) {
+      .results .row {
+        width: 75%; } }
+    @media screen and (max-width: 544px) {
+      .results .row {
+        width: 100%; } }
+
+div.div-results {
+  padding: 12px;
+  margin: 5px; }
+  @media screen and (max-width: 840px) {
+    div.div-results h1 {
+      margin: 5px; } }
+  @media screen and (max-width: 950px) {
+    div.div-results p {
+      margin: 5px; } }
+
+body {
+  font-family: sans-serif; }
+
+h3 {
+  font-size: 26px; }
+  @media screen and (max-width: 1200px) {
+    h3 {
+      font-size: 22px; } }
+  @media screen and (max-width: 990px) {
+    h3 {
+      font-size: 20px; } }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 17px; } }
+
+div#search-results h1 {
+  font-size: 20px; }
+  @media screen and (max-width: 950px) {
+    div#search-results h1 {
+      font-size: 17px; } }
+  @media screen and (max-width: 840px) {
+    div#search-results h1 {
+      font-size: 15px; } }
+div#search-results p {
+  font-size: 15px; }
+  @media screen and (max-width: 950px) {
+    div#search-results p {
+      font-size: 13px; } }
+
+input#searchfield {
+  font-size: 17px; }
+  @media screen and (max-width: 840px) {
+    input#searchfield {
+      font-size: 14px; } }
+  @media screen and (max-width: 590px) {
+    input#searchfield {
+      font-size: 12px; } }
+  @media screen and (max-width: 1025px) {
+    .results input#searchfield {
+      font-size: 14px; } }
+
+/*# sourceMappingURL=main.css.map */
